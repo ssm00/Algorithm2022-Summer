@@ -1,5 +1,7 @@
 package w1;
 
+//문자 잘라서 배열에 넣기 split
+
 import java.util.Scanner;
 
 public class Ex0103 {
