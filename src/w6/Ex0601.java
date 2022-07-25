@@ -3,7 +3,7 @@ package w6;
 import java.util.Scanner;
 
 //선택정렬
-
+//이중포문으로 하나씩 비교
 
 public class Ex0601 {
 	
