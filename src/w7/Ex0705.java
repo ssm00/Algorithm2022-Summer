@@ -1,7 +1,8 @@
 package w7;
 
-//이진순회
+//DFS 이진순회
 //전위순회, 중위 순회, 후위 순회
+//DFS는 경우의수
 
 class Node{
 	int data;
