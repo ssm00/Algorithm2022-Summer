@@ -25,8 +25,8 @@ public class Ex0706 {
 				System.out.println(temp);
 			}
 		}else {
-			ch[L] = 1;	//쓴다는걸 표시
-			DFS(L+1);	//DFS내려가기 왼쪽으로 내려가는 것으로 간주 메소드에 lt를 넣지않으니까 ch[]를 이용
+			ch[L] = 1;	//쓴다는걸 표시 파라미터로 String ans 만들어서 ans+" "+L, ans 이렇게 넘겨도 될듯
+			DFS(L+1);	//DFS내려가기 왼쪽으로 내려가는 것으로 간주 메소드에 lt를 넣지않으니까 ch[]를 이용 
 			ch[L] = 0;	//안쓴다는걸 표시
 			DFS(L+1);	//DFS내려가기 오른쪽으로 내려가는 것으로 간주 메소드에 rt를 넣지않으니까 ch[]를 이용
 		}
