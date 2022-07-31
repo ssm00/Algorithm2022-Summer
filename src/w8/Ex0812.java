@@ -11,6 +11,13 @@ import java.util.Scanner;
 //LEVEL로 끝나는 시점 판별이 아니라 Q가 자동으로 비는 시점이 생긴다
 //level로 새는게 아니라 dis배열로 새는거면 for문을 q.len로 안돌려도됨 offer하는 조건에서 끝나면 더 안들어감
 
+class Point{
+	int x,y;
+	public Point(int x, int y) {
+		this.x = x;
+		this.y = y;
+	}
+}
 
 public class Ex0812 {
 	
