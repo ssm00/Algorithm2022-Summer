@@ -14,7 +14,7 @@ public class Ex0706 {
 	static int [] ch;
 	
 	public void DFS(int L) {
-		if(L==n+1) {
+		if(L==n+1) { 
 			String temp = "";
 			for(int i=1; i<=n; i++) {
 				if(ch[i] == 1) {

@@ -7,17 +7,10 @@ import java.util.Scanner;
 //토마토
 //격자모양으로 토마토를 저장하고 상하좌우 하루있으면 익는다 모두 다 익는 최소일수 구하기
 //최소일수 BFS
-//dis라는 일수를 적어두는 배열을 만든다. levle을 카운트해서 구하는게 아니라 dis배열만 끝가지 돌리면 되기때문에
+//dis라는 일수를 적어두는 배열을 만든다. 끝나는 날짜가 안정해져 있으므로 levle을 카운트불가 dis배열만 끝가지 돌리면 되기때문에
 //LEVEL로 끝나는 시점 판별이 아니라 Q가 자동으로 비는 시점이 생긴다
 //level로 새는게 아니라 dis배열로 새는거면 for문을 q.len로 안돌려도됨 offer하는 조건에서 끝나면 더 안들어감
-
-class Point{
-	int x,y;
-	public Point(int x, int y) {
-		this.x = x;
-		this.y = y;
-	}
-}
+//새로운값 넣을때에는 dis만들기 0,1처럼 체크만 원래 board에 갱신가능
 
 public class Ex0812 {
 	
